@@ -1,0 +1,140 @@
+#######################################
+# Syntax Coloring Map For lokii
+#######################################
+
+
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+LOKII			      KEYWORD1
+BlockObject 		      KEYWORD1
+CameraRecognitionMode 	      KEYWORD1
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setMotorPower 		      KEYWORD2
+setSmartDeviceAddress         KEYWORD2
+getSmartDeviceCount           KEYWORD2
+showSmartDeviceStatus         KEYWORD2
+playSoundFile		      KEYWORD2
+setMicrophone		      KEYWORD2
+getMicrophone		      KEYWORD2
+takePhoto		      KEYWORD2
+displayPhoto		      KEYWORD2
+playMIDI		      KEYWORD2
+createSDGroup		      KEYWORD2
+trainSDkeyword		      KEYWORD2
+checkSDComplete		      KEYWORD2
+connect			      KEYWORD2
+setCameraMode		      KEYWORD2
+registerColor	              KEYWORD2	
+getFaceResult                 KEYWORD2
+waitForFaceResult             KEYWORD2
+getBlobCount		      KEYWORD2
+getBlobResult		      KEYWORD2
+waitForBlobResult	      KEYWORD2
+startSpeechRecognize	      KEYWORD2
+getSpeechResult		      KEYWORD2
+waitForSpeechResult	      KEYWORD2
+setVolume		      KEYWORD2
+playTTS			      KEYWORD2
+stopSound		      KEYWORD2
+checkAudioStatus	      KEYWORD2
+moveMotor		      KEYWORD2
+readMotorStatus		      KEYWORD2
+playbackMotor		      KEYWORD2
+recordMotor		      KEYWORD2
+setRGB			      KEYWORD2
+stopRecordMotor		      KEYWORD2
+
+ 
+#######################################
+# Instances (KEYWORD2)
+#######################################
+lokii  			      KEYWORD2
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LOKI_REPLY_OK                 LITERAL1
+LOKI_REPLY_FAIL               LITERAL1
+LOKI_RESULT_BUSY              LITERAL1
+LOKI_RESULT_CHECKSUM_ERROR    LITERAL1
+LOKI_RESULT_RETURN_ERROR      LITERAL1
+
+RESULT_TYPE_OBJECT_DETECTION  LITERAL1
+RESULT_TYPE_VOICE_RECOGNITION LITERAL1
+
+OBJECT_FACE                   LITERAL1
+OBJECT_BLACK                  LITERAL1
+OBJECT_R                      LITERAL1
+OBJECT_G                      LITERAL1
+OBJECT_B                      LITERAL1
+OBJECT_CUSTOM                 LITERAL1
+
+
+L_BLACK_COLOR   	      LITERAL1
+L_RED_COLOR     	      LITERAL1
+L_GREEN_COLOR   	      LITERAL1
+L_BLUE_COLOR    	      LITERAL1
+L_CUSTOM_COLOR  	      LITERAL1
+
+ 
+L_CAM_PREVIEW                 LITERAL1 
+L_CAM_RECOGNIZE_CUSTOM        LITERAL1
+L_CAM_RECOGNIZE_RGB           LITERAL1
+L_CAM_FACE_DETECT             LITERAL1
+
+L_XPOS                  LITERAL1
+L_YPOS                  LITERAL1
+L_WIDTH                 LITERAL1
+L_HEIGHT                LITERAL1
+L_COLOR                 LITERAL1
+
+L_KEYWORD_STOP          LITERAL1
+L_KEYWORD_GROUP1        LITERAL1
+L_KEYWORD_GROUP2        LITERAL1
+L_KEYWORD_GROUP3        LITERAL1
+
+L_DEFAULT     		LITERAL1
+L_MAN         		LITERAL1
+L_OLDMAN      		LITERAL1
+L_OLDWOMAN    		LITERAL1
+L_BOY         		LITERAL1
+L_YOUNGGIRL   		LITERAL1
+L_ROBOT       		LITERAL1
+L_GIANT       		LITERAL1
+L_DWARF       		LITERAL1
+L_ALIENT      		LITERAL1
+
+
+E_NATURAL     		LITERAL1
+E_FRIENDLY    		LITERAL1
+E_ANGRY       		LITERAL1
+E_FURIOUS     		LITERAL1
+E_DRILL       		LITERAL1
+E_SCARED      		LITERAL1
+E_EMOTIONAL   		LITERAL1
+E_WEEPY       		LITERAL1
+E_EXCITED     		LITERAL1
+E_SURPRISED   		LITERAL1
+E_SAD         		LITERAL1
+E_DISGUSTED   		LITERAL1
+E_WHISPER     		LITERAL1
+
+L_ON    		LITERAL1
+L_OFF   		LITERAL1
+
+NON_BLOCKING 		LITERAL1
+BLOCKING     		LITERAL1
+
+
+
