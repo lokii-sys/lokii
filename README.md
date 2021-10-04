@@ -3,25 +3,24 @@ LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the up
 1) LokiiLib1.0.4.zip is the latest library for LOKII boards <p>
 2) LokiiLib1.0.5.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for:
     
-    // LOKII-CE only //
 	
-    // SOUND DIRECTION DETECTION functions	
-    int getSoundDirection(void);
-    int waitForSoundDirection(bool isBlocking=true);
+    [SOUND DIRECTION DETECTION functions]	 <p>
+    - int getSoundDirection(void);
+    - int waitForSoundDirection(bool isBlocking=true);
 
-    // BLE functions
-    void startBLE(void);
-    void closeBLE(void);
-    int getBLE(void);
-    int connectIOT(int deviceCount, int *deviceIndex);
-    int configIOT(int deviceIndex, char *parameter, int paraLength);  
-    int readIOTconfigIOT(int deviceIndex, char *parameter);
-    int readIOTSensors(int deviceIndex, char *parameter);	
+    [BLE functions] <p>
+    - void startBLE(void);
+    - void closeBLE(void);
+    - int getBLE(void);
+    - int connectIOT(int deviceCount, int *deviceIndex);
+    - int configIOT(int deviceIndex, char *parameter, int paraLength);  
+    - int readIOTconfigIOT(int deviceIndex, char *parameter);
+    - int readIOTSensors(int deviceIndex, char *parameter);	
 
-    // WIFI functions
-    void setWIFI(uint8_t tar_wifiState, uint8_t tar_cloudState);
-    void getWIFI(uint8_t *cur_wifiState, uint8_t *cur_cloudState);
-    void pushIOTToWIFI(uint8_t times);
+    [WIFI function] <p>
+    - void setWIFI(uint8_t tar_wifiState, uint8_t tar_cloudState);
+    - void getWIFI(uint8_t *cur_wifiState, uint8_t *cur_cloudState);
+    - void pushIOTToWIFI(uint8_t times);
   
 
 # Preparation
