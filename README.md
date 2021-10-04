@@ -1,7 +1,7 @@
 # lokii
 LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the upcoming  2nd Generation LOKII-CE boards) <p>
 1) LokiiLib1.0.4.zip is the latest library for LOKII boards <p>
-2) LokiiLib1.0.5.zip is the latest library for LOKII-CE boards which support following new features:
+2) LokiiLib1.0.5.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for:
   - sound direction detection
   - BLE connection for sensors reading 
   - WIFI connection
