@@ -1,7 +1,7 @@
 # lokii
 LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the upcoming  2nd Generation LOKII-CE boards) <p>
 1) LokiiLib1.0.4.zip is the latest library for LOKII boards <p>
-2) LokiiLib1.0.5.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for:
+2) LokiiLib1.0.6.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for:
     
 	
     [SOUND DIRECTION DETECTION functions]	 <p>
@@ -13,9 +13,10 @@ LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the up
     - void closeBLE(void);
     - int getBLE(void);
     - int connectIOT(int deviceCount, int *deviceIndex);
-    - int configIOT(int deviceIndex, char *parameter, int paraLength);  
+    - int configIOT(int deviceIndex, char *parameter, int paraLength);  	
+    - int commandIOT(int deviceIndex, char *parameter, int paraLength);  
     - int readIOTconfigIOT(int deviceIndex, char *parameter);
-    - int readIOTSensors(int deviceIndex, char *parameter);	
+    - int readIOTSensors(int deviceIndex, int readType,  char *parameter, int *result);	
 
     [WIFI function] <p>
     - void setWIFI(uint8_t tar_wifiState, uint8_t tar_cloudState);
