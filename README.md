@@ -1,7 +1,7 @@
 # lokii
 LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the upcoming  2nd Generation LOKII-CE boards) <p>
 1) LokiiLib1.0.4.zip is the latest library for LOKII boards <p>
-2) LokiiLib1.0.6.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for this LOKII-CE 2nd milestone demo:
+2) LokiiLib1.0.6.zip is the second library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for this LOKII-CE 2nd milestone demo:
     
 	
     [SOUND DIRECTION DETECTION functions]	 <p>
@@ -23,6 +23,18 @@ LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the up
     - void getWIFI(uint8_t *cur_wifiState, uint8_t *cur_cloudState);
     - void pushIOTToWIFI(uint8_t times);
   
+3) LokiiLib1.0.7.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for  LOKII-CE 3rd milestone demo:
+      [COLOR TRACKING]	 <p>
+      [FACE  DETECTION]	 <p>
+      [VIDEO STREAMING]	 <p>
+      [AUDIO STREAMING]	 <p>
+     - int8_t setCameraRecognitionMode(CameraRecognitionMode mode, bool isBlocking);
+
+
+      [SMART_IOT ACTION CONTROL] <p>
+     - int setSmartIOTAction(int deviceIndex, char *parameter, int paraLength);
+
+    
 
 # Preparation
 First, user need to install the Arduino IDE on their window or MAC computer.
