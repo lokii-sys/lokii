@@ -24,6 +24,8 @@ LOKII Arduino Shield Library (Support for 1st Generation LOKII boards and the up
     - void pushIOTToWIFI(uint8_t times);
   
 3) LokiiLib1.0.7.zip is the latest library for LOKII-CE boards which provide Arduino functions to control SMART_SHIELD  for  LOKII-CE 3rd milestone demo:
+
+
       [COLOR TRACKING]	 <p>
       [FACE  DETECTION]	 <p>
       [VIDEO STREAMING]	 <p>
